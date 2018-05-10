@@ -1,0 +1,32 @@
+body {
+    background: #4aaaa5;
+    margin: auto;
+}
+
+header {
+    background: #ffffff;
+    border: solid 1px #cccccc;
+    font-family: Georgia Times 'Times New Roman' serif;
+}
+
+h1 {
+    
+    background: #4aaaa5;
+}
+
+ul {
+    display: inline;
+}
+
+.container{
+    border: solid 1px #dddddd;
+    background: #ffffff;
+    color: #777777;
+    overflow:auto;
+
+
+}
+
+footer {
+    background: #666666;
+}
