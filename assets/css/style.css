@@ -1,29 +1,40 @@
 body {
-    background: #4aaaa5;
+    background: url(../images/palm-leaf/palm-leaf.png) repeat-x center center fixed;
+    background-size: cover;
     margin: auto;
 }
 
-header {
+.top {
+    display: inline;
     background: #ffffff;
     border: solid 1px #cccccc;
     font-family: Georgia Times 'Times New Roman' serif;
 }
 
 h1 {
-    
+    float: left;   
     background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
-    display: inline;
+    list-style-type: none; 
+    float: left;
+    
 }
 
-.container{
+li {
+    display: inline; 
+}
+
+.wrapper1{
+    text-align: center;
+    width: 960px;
     border: solid 1px #dddddd;
     background: #ffffff;
     color: #777777;
     overflow:auto;
-
+    font-family: Arial "Helvetica Neue" Helvetica Sans-serif;
 
 }
 
