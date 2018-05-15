@@ -52,9 +52,11 @@ ul {
     
 }
 
-li {
-    display: inline; 
-    padding-bottom: 0px; 
+.nav li {
+    display: inline-block; 
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px; 
 
 }
 
@@ -69,6 +71,7 @@ li {
     background: #ffffff;
     color: #777777;
     font-family: Arial "Helvetica Neue" Helvetica Sans-serif;
+    overflow: hidden; 
     
 
 }
